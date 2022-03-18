@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'strongman-front';
+  showFiller = false;
+
+  typesOfShoes: string[] = ['Clientes', 'Academia', 'Treino'];
 }
